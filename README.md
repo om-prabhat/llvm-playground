@@ -7,6 +7,14 @@ Lexer - converts the code/texts (at that moment) to some meaningful chunks calle
 
 More specifically this has currently capability of converting some symbols, some arithmetic operators, some data types, return and numbers into tokens. And removing spaces and comments (starting with: "#").
 
+## Build steps
+
+```sh
+cmake -B build #using cmake i felt its easier
+cd build #cmake will make Makefiles here
+make #build it
+```
+- and test input files are in `tests/*.ie`
 
 References taken from (read some other blogs too but forgot to note them down - will add if i came across them again) :
 
